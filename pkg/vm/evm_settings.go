@@ -27,10 +27,10 @@ var (
 
 	NoDynamicFeesGasLimitToTargetGasFactor = big.NewInt(5)
 
-	PrefundedEwoqAddress = common.HexToAddress("0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC")
-	PrefundedEwoqPrivate = "56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027"
+	PrefundedEwoqAddress = common.HexToAddress("0x92028aA1c882641B27D5B32AB44Aeeb601AA92EC")
+	PrefundedEwoqPrivate = "7963544318ec9f9483c2ae889d4aaa5af2a5f0e59dd52c7cd09d459f5bef1456"
 
 	OneAvax                 = new(big.Int).SetUint64(1000000000000000000)
-	defaultEVMAirdropAmount = new(big.Int).Exp(big.NewInt(10), big.NewInt(24), nil) // 10^24
+	defaultEVMAirdropAmount = new(big.Int).Exp(big.NewInt(21), big.NewInt(26), nil) // 21* 10^26
 	defaultPoAOwnerBalance  = new(big.Int).Mul(OneAvax, big.NewInt(10))             // 10 Native Tokens
 )

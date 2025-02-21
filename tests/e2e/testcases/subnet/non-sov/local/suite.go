@@ -177,7 +177,7 @@ var _ = ginkgo.Describe("[Local Subnet non SOV]", ginkgo.Ordered, func() {
 	ginkgo.It("can deploy custom chain config non SOV", func() {
 		commands.CreateSubnetEvmConfigNonSOV(subnetName, utils.SubnetEvmAllowFeeRecpPath)
 
-		addr := "0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC"
+		addr := "0x92028aA1c882641B27D5B32AB44Aeeb601AA92EC"
 
 		chainConfig := "{\"feeRecipient\": \"" + addr + "\"}"
 

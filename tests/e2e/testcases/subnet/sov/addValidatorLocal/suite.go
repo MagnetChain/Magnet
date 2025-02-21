@@ -15,7 +15,7 @@ import (
 const (
 	CLIBinary         = "./bin/avalanche"
 	keyName           = "ewoq"
-	ewoqEVMAddress    = "0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC"
+	ewoqEVMAddress    = "0x92028aA1c882641B27D5B32AB44Aeeb601AA92EC"
 	ewoqPChainAddress = "P-custom18jma8ppw3nhx5r4ap8clazz0dps7rv5u9xde7p"
 )
 
